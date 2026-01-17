@@ -1,0 +1,16 @@
+{
+  "name": "@oxygen/prettier-config",
+  "version": "0.1.0",
+  "description": "Shared Prettier configuration for Oxygen",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    ".prettierignore"
+  ],
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "license": "MIT"
+}

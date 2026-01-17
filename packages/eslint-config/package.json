@@ -1,0 +1,23 @@
+{
+  "name": "@oxygen/eslint-config",
+  "version": "0.1.0",
+  "description": "Shared ESLint configuration for Oxygen (ESLint v9 Flat Config)",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "base.js",
+    "node.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "typescript-eslint": "^8.0.0"
+  }
+}

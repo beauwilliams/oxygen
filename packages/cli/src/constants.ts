@@ -1,0 +1,18 @@
+export const EXIT_CODES = {
+  SUCCESS: 0,
+  GENERAL_ERROR: 1,
+  INVALID_ARGUMENTS: 2,
+  CONFIG_ERROR: 3,
+  SPEC_NOT_FOUND: 4,
+  GIT_ERROR: 5,
+  REFINEMENT_TERMINATED: 6,
+  BUDGET_EXCEEDED: 7,
+} as const;
+
+export const DEFAULT_VALUES = {
+  VIEW_TYPE: 'execution' as const,
+  LINTER_THRESHOLD: 0.7,
+  MAX_ATTEMPTS: 10,
+  MAX_COST: 2000,
+  PER_ATTEMPT_LIMIT: 100,
+} as const;
